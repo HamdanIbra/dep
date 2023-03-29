@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: white;
+}
+.right_header{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+}
+main{
+    width: 80%;
+    margin : 0 auto;
+}
+.comment{
+    margin-left: 30px;
+    background-color: bisque;
+
+}
+.message p{
+    margin-left: 15px;
+}
+textarea{
+    overflow: auto;
+    display: block;
+    width: 100%;
+}
+.button{
+    display: flex;
+
+}
+.message{
+    background-color: brown;
+    color: white;
+}
